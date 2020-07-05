@@ -6,6 +6,8 @@ This repository explores extensions of the techniques developed in:
   Yohai Bar-Sinai\*, Stephan Hoyer\*, Jason Hickey, Michael P. Brenner.
   PNAS 2019, 116 (31) 15344-15349.
 
+原来的版本对于 tensorflow2.0+不是太友好了，修改了一些函数放进来。
+
 See [this repository](https://github.com/google/data-driven-discretization-1d)
 for the code used to produce results for the PNAS paper.
 
