@@ -21,8 +21,8 @@ from datadrivenpdes.core import models
 from datadrivenpdes.core import tensor_ops
 import tensorflow as tf
 
-nest = tf.contrib.framework.nest
-xla = tf.contrib.compiler.xla
+nest = tf.nest
+xla = tf.xla
 
 KeyedTensors = Dict[str, tf.Tensor]
 

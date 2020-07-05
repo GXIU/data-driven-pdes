@@ -28,7 +28,7 @@ from absl.testing import absltest
 
 FLAGS = flags.FLAGS
 
-nest = tf.contrib.framework.nest
+nest = tf.nest
 
 
 # Use eager mode by default

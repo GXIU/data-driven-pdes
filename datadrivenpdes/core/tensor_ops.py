@@ -27,7 +27,7 @@ import tensorflow as tf
 def auto_nest(func):
   """Automatically support nested tensors in the first argument."""
   def wrapper(tensors, *args, **kwargs):
-    return tf.contrib.framework.nest.map_structure(
+    return tf.nest.map_structure(
         lambda x: func(x, *args, **kwargs), tensors)
   return wrapper
 
